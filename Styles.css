@@ -62,6 +62,9 @@ body{
 .btn:hover:not(:disabled){transform:translateY(-2px);background:linear-gradient(135deg,#ffe19a,#f3c365);box-shadow:0 6px 0 #b17a2e,0 12px 20px rgba(0,0,0,.24)}
 .btn:active:not(:disabled){transform:translateY(2px);box-shadow:0 2px 0 #b17a2e}
 .btn:disabled{color:rgba(233,238,232,.56);background:rgba(233,238,232,.1);border-color:rgba(233,238,232,.12);box-shadow:none;cursor:not-allowed}
+.video-btn{color:#fff;background:#d71920;border-color:#d71920;box-shadow:0 4px 0 #941117,0 8px 16px rgba(0,0,0,.18);text-decoration:none}
+.video-btn:hover{background:#b9151b;box-shadow:0 6px 0 #941117,0 12px 20px rgba(0,0,0,.24)}
+.video-btn:active{box-shadow:0 2px 0 #941117}
 .progress{flex:1;max-width:360px;display:flex;flex-direction:column;gap:8px;align-items:center;font-size:.78rem;letter-spacing:.13em;font-weight:700}
 #pageLabel{font-variant-numeric:tabular-nums;color:#f7f6f0}
 .bar{width:100%;height:7px;background:rgba(233,238,232,.18);border-radius:9px;overflow:hidden}
